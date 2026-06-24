@@ -3,23 +3,37 @@
 ## Student Information
 
 - **Name:** Aditi Shinde
-- **Roll Number:** YOUR_ROLL_NUMBER
+- **Roll Number:** 5024158
 
-## Modified Homepage
+## Description
 
-This Laravel project contains a customized homepage created using Blade and Bootstrap.
+This project was created using Laravel Herd. The default Laravel homepage was customized using Blade templates and CSS. MySQL database connectivity was configured successfully, and Laravel database migrations were executed to create the required tables.
 
-### Screenshot
+## Database Migrations
 
-![Homepage](screenshots/homepage.png)
+The following tables were generated using:
+
+```bash
+herd php artisan migrate
+```
+
+- users
+- cache
+- jobs
+- migrations
+
+## Modified Homepage Screenshot
+
+![Modified Homepage](screenshots/homepage.png)
 
 ## Technologies Used
 
+- Laravel Herd
 - PHP
-- Laravel
-- Blade
-- Bootstrap 5
+- Blade Templates
 - MySQL
+- Laravel Migrations
+- Git & GitHub
 
 ## Author
 
